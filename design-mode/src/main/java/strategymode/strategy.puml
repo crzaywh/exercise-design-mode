@@ -1,0 +1,36 @@
+@startuml
+
+abstract class Duck{
+FlyBehavior flyBehavior
+QuackBehavior quackBehavior
+    eat()
+    fly()
+    swim()
+    quack()
+}
+
+class BeiJingDuck
+class NanJingDuck
+class XiAnDuck
+
+Duck <|-- BeiJingDuck
+Duck <|-- NanJingDuck
+Duck <|-- XiAnDuck
+
+
+interface FlyBehavior
+interface QuackBehavior
+
+class FlyWithWings
+class FlyNothing
+
+FlyBehavior <|-- FlyWithWings
+FlyBehavior <|-- FlyNothing
+
+class Quack
+class Squeak
+
+QuackBehavior <|-- Quack
+QuackBehavior <|-- Squeak
+
+@enduml

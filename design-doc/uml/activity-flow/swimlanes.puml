@@ -1,0 +1,33 @@
+@startuml
+
+|Swimlane1|
+start
+
+:开始;
+|#Orange|Swimlane2|
+:sdfasd;
+:dsaffdddf;
+if(1+1) then(2)
+:sdafdfdsf;
+else(1)
+:asdsadas;
+endif
+:afmldasnsdfl;
+
+|#LightSkyBlue|Swimlane3|
+fork
+    :666;
+fork again
+    :777;
+end fork
+
+fork
+:sdfdsfds;
+:sdfdsfds;
+fork again
+:sdfdsfds;
+:sdfdsfds;
+end fork
+
+stop
+@enduml

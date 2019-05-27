@@ -1,0 +1,28 @@
+@startuml
+start
+:11111;
+:2222;
+:43333;
+
+partition 操作{
+:数据计算开始;
+
+if(x+y) then(2)
+:计算除法;
+    note left
+    计算除法
+    end note
+else (-1)
+:计算乘法;
+    note right
+    计算乘法
+    end note
+endif
+
+:计算单独分支;
+}
+
+:5445454544;
+:56565656;
+end
+@enduml

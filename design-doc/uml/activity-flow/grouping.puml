@@ -1,0 +1,24 @@
+@startuml
+start
+partition 活动流程1{
+:saaassdaasd;
+:asdsasasa;
+}
+
+partition 活动流程2{
+:okkkkk;
+
+if (asdasd) then(asdss)
+:xxcxcxxc;
+else(sadsad)
+:gfdhdhgdfhh;
+
+endif
+}
+
+partition 活动流程3{
+:saaassdaasd;
+:asdsasasa;
+}
+stop
+@enduml
